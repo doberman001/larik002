@@ -1,0 +1,36 @@
+/*
+>=
+992-1199
+768-991
+576-768
+460-576
+414-460
+375-414
+320-375
+*/
+
+
+@media screen and (max-width: 1199px){
+    header form div {
+        width: 180px;
+    }
+     header form div input[type="text"]{
+     width: 120px;   
+    }
+}
+@media screen and (max-width: 974px){
+    header .container .menu a{
+        margin: 0 10px;
+    }
+    header .container img{
+        width: 60px;
+        height: 50px;
+    }
+    header .car img{
+        width: 15px;
+        height: 15px;
+    }
+    header .container .car a{
+        font-size: 10px;
+    }
+}
